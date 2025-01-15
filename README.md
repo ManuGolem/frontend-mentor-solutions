@@ -1,4 +1,5 @@
-# Frontend Mentor solutions for Me
+# Frontend Mentor solutions
+This is a page that gathers all the solutions I have created for Frontend Mentor challenges.
 ## Table Of Contents
 - [Overview](#overview)
   - [Screenshot](#screenshot)
