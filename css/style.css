@@ -1,0 +1,9 @@
+:root{
+    --fondo:black;
+    --letra:white;
+}
+
+body{
+    background-color: var(--fondo);
+    color:var(--letra)
+}
