@@ -1,9 +1,79 @@
 :root{
     --fondo:black;
+    --fondo-claro:rgb(78, 77, 77);
+    --fondo-clarito:rgb(255, 255, 255);
     --letra:white;
+    --verde:rgb(106, 250, 106);
 }
 
 body{
     background-color: var(--fondo);
-    color:var(--letra)
+    color:var(--letra);
+    text-align: center;
+}
+.nombre{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin:0;
+    padding: 0;
+    color:var(--letra);
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+.links{
+    text-decoration: none;
+    color:var(--letra);
+    font-size: 14px;
+    background-color: var(--fondo-claro);
+    border-radius: 10px;
+    padding: 6px 8px
+}
+li{
+    list-style:none;
+    margin: 6px;
+}
+.links:hover{
+    color:var(--verde);
+    font-weight: bold;
+    background-color: var(--fondo-clarito);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.divProyecto{
+    width: 40rem;
+}
+.divProyecto:hover{
+    width: 42rem;
+}
+.name{
+    margin:0.2rem;
+    font-size: 20px;
+}
+.name:hover{
+    color:var(--verde);
+    cursor: pointer;
+}
+.title{
+    margin:1rem;
+}
+.img{
+    width: 40rem;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+.img:hover{
+    border:4px solid var(--verde);
+    cursor: pointer;
+    width: 41rem;
 }
