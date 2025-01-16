@@ -9,6 +9,7 @@ This is a page that gathers all the solutions I have created for Frontend Mentor
 ### Screenshots
 - Desktop
 
+![Img desktop](images/frontendMentorpreview.png)
 - Mobile
 ### Link
 - Live Site Url : [Frontend Mentor Solutions](https://manugolem.github.io/frontend-mentor-solutions/)
