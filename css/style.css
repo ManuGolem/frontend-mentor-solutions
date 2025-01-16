@@ -47,7 +47,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:40rem;
+    gap:4rem;
     flex-wrap: wrap;
 }
 .divProyecto{
