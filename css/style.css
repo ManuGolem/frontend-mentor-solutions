@@ -49,6 +49,7 @@ li{
     justify-content: center;
     gap:4rem;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 .divProyecto{
     width: 40rem;
