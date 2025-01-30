@@ -80,3 +80,15 @@ li{
     cursor: pointer;
     scale: 1.05;
 }
+@media (max-width:500px) {
+    .container{
+        gap:0;
+    }
+    .divProyecto{
+        scale:0.8;
+        img{
+            scale:0.8
+        }
+    }
+    
+}
