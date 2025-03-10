@@ -1,94 +1,111 @@
-:root{
-    --fondo:black;
-    --fondo-claro:rgb(78, 77, 77);
-    --fondo-clarito:rgb(255, 255, 255);
-    --letra:white;
-    --verde:rgb(106, 250, 106);
+:root {
+    --fondo: black;
+    --fondo-claro: rgb(78, 77, 77);
+    --fondo-clarito: rgb(255, 255, 255);
+    --letra: white;
+    --verde: rgb(106, 250, 106);
 }
 
-body{
+body {
     background-color: var(--fondo);
-    color:var(--letra);
+    color: var(--letra);
     text-align: center;
 }
-.nombre{
+
+.nombre {
     text-align: center;
     display: flex;
     justify-content: center;
 }
-*{
-    margin:0;
+
+* {
+    margin: 0;
     padding: 0;
-    color:var(--letra);
+    color: var(--letra);
     text-decoration: none;
+    box-sizing: border-box;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: center;
 }
-.links{
+
+.links {
     text-decoration: none;
-    color:var(--letra);
+    color: var(--letra);
     font-size: 14px;
     background-color: var(--fondo-claro);
     border-radius: 10px;
-    padding: 6px 8px
+    padding: 6px 8px;
 }
-li{
-    list-style:none;
+
+li {
+    list-style: none;
     margin: 6px;
 }
-.links:hover{
-    color:var(--verde);
+
+.links:hover {
+    color: var(--verde);
     font-weight: bold;
     background-color: var(--fondo-clarito);
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:4rem;
+    gap: 4rem;
     flex-wrap: wrap;
     margin-bottom: 4rem;
-    margin-top:2rem;
+    margin-top: 2rem;
 }
-.divProyecto{
+
+.divProyecto {
     width: 30rem;
     transition: all 0.4s ease-in-out;
 }
-.divProyecto:hover{
+
+.divProyecto:hover {
     width: 32rem;
 }
-.name{
-    margin:0.2rem;
+
+.name {
+    margin: 0.2rem;
     font-size: 20px;
 }
-.name:hover{
-    color:var(--verde);
+
+.name:hover {
+    color: var(--verde);
     cursor: pointer;
 }
-.title{
-    margin:1rem;
+
+.title {
+    margin: 1rem;
 }
-.img{
+
+.img {
     width: 30rem;
     border-radius: 10px;
     transition: scale 0.4s ease-in-out;
 }
-.img:hover{
-    border:4px solid var(--verde);
+
+.img:hover {
+    border: 4px solid var(--verde);
     cursor: pointer;
     scale: 1.05;
 }
-@media (max-width:500px) {
-    .container{
-        gap:0;
+
+@media (max-width: 500px) {
+    .container {
+        gap: 0;
     }
-    .divProyecto{
-        scale:0.8;
-        img{
-            scale:0.8
+
+    .divProyecto {
+        scale: 0.8;
+
+        img {
+            scale: 0.8;
         }
     }
-    
 }
